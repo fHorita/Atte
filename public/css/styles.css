@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+  background-color: #F5F5F5;
+  min-height: 100vh;
+}
+
+body header,
+body footer {
+  background-color: #fff;
+}
+
+header {
+  height: 80px;
+  font-size: 28px;
+  padding-left: 50px;
+  line-height: 80px;
+}
+
+main {
+  height: calc(100vh - 120px);
+}
+
+footer {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 12px;
+  /* color: #808080; */
+}

@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header > div {
+  display: flex;
+  font-size: 14px;
+  padding-right: 50px;
+}
+
+header > div p {
+  width: 90px;
+}
+
+header > div p a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+header > div p a:hover {
+  opacity: .3;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  padding: 40px 40px;
+}
+
+h2 a {
+  text-decoration: none;
+  font-size: 24px;
+  color: blue;
+  font-weight: 10;
+  border: 1px solid blue;
+  background-color: #fff;
+}
+
+h2 a:first-of-type {
+  padding: 0 14px 3px 8px; 
+  margin-right: 24px;
+}
+
+h2 a:last-of-type {
+  padding: 0 8px 3px 14px; 
+  margin-left: 24px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+tr {
+  border-top: 1px solid black;
+}
+
+th {
+  font-size: 16ox;
+}
+
+td {
+  text-align: center;
+  font-size: 16px
+}
+
+th, td {
+  padding: 20px 20px;
+}
+
+nav {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  width: 30%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.pagination .page-item {
+  flex: 1;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #fff;
+  padding: 10px 0 10px;
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pagination .page-item:nth-of-type(n+1) {
+  margin-left: 2px;
+}
+
+.pagination .page-item.active {
+  background-color:	blue;
+  color: #fff;
+}
+
